@@ -1,0 +1,136 @@
+.header a, a:hover {
+    color: #db8420;
+    text-decoration: none;
+}
+.header h1 {
+    letter-spacing: 15px;
+    font-size: 300%;
+}
+.header p {
+    color: #ffffff !important;
+    letter-spacing: 3px;
+    font-size: 90%;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #795d03;
+    
+}
+.nav-pills>li>a {
+    color: #fff; 
+}
+.nav-pills>li>a:hover {
+    background-color: #795d03;
+}
+.navbar-inverse {
+    padding: 1%;
+    background: rgb(10, 21, 54);
+    /* box-shadow: 0 5px 5px -20px rgba(10, 21, 54, .2); */
+    box-shadow: 0 14px 28px rgba(10, 21, 54, 0.25);
+    border-radius: 0;
+}
+@media (max-width: 767px) {
+    .nav-pills>li {
+        float: none;
+    }
+    .nav-pills {
+        text-align: center;
+    }
+    .header h1 {
+        letter-spacing: 5px;
+        font-size: 240%;
+        text-align: center;
+    }
+    .header p {
+        font-size: 80%;
+        text-align: center;
+    }
+}
+.clear {
+    clear: both;
+    height: 63px;
+}
+.wrapper {
+    min-height: 100%;
+}
+html, body {
+    height: 100%;
+}
+.films_block {
+    text-align: center;
+}
+.films_block img {
+    border-radius: 5px;
+    margin-bottom: 5%;
+    border: solid 5px #dad7d5;
+    width: 100%;
+}
+.film_label {
+    padding: 2%;
+    margin-bottom: 4%;
+}
+.margin-8 {
+    margin-top: 8%;
+}
+.panel {
+    border: none;
+   
+}
+.panel-body {
+    background-color: #f3f3f3;
+}
+.panel-info>.panel-heading {
+    background-color: #0a1536;
+    color: #ffffff;
+    border-color: transparent;
+}
+.sidebar-header {
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+.form-control {
+    border-radius: 0px;
+}
+.input-lg {
+    font-size: 14px;
+}
+.btn-primary {
+    background-color: #0a1536;
+    border: none;
+    text-transform: uppercase;
+}
+.btn-warning {
+    background-color: #795d03;
+    border: none;
+}
+.list-group-item-warning {
+    color: #8a6d3d;
+    background-color: #f9f9f9;
+}
+.badge {
+    background-color: #0a1536;
+}
+.info-block {
+    font-size: 110%;
+}
+.info-block span {
+    margin-right: 3%;
+}
+.form-contact {
+    width: 50%;
+}
+.table tbody>tr>td.vert-align {
+    vertical-align: middle;
+}
+footer {
+    color: #666;
+    background: #0a1536;
+    padding: 17px 0 18px 0;
+    border: 1px solid #000;
+}
+footer a {
+    color: #999;
+}
+footer a:hover {
+    color: #ffffff;
+}
